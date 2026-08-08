@@ -17,30 +17,48 @@ To evaluate a policy $\pi$, we use the Bellman Expectation Equation for the stat
 
 ### Policy 1 (No Movement Policy):
 --- EVALUATING POLICY 1 (No Movement) ---
+
 Iteration 1 | Max Delta: 99.4583
+
 Iteration 2 | Max Delta: 78.1130
+
 Iteration 3 | Max Delta: 63.8115
+
 Iteration 4 | Max Delta: 54.0203
+
 Iteration 5 | Max Delta: 46.5412
+
 ...
+
 Iteration 15 | Max Delta: 4.8732
 
 ### Policy 2 (Simple Rebalancing Policy):
 --- EVALUATING POLICY 2 (Simple Rebalancing) ---
+
 Iteration 1 | Max Delta: 99.4583
+
+
 Iteration 2 | Max Delta: 78.8921
+
 Iteration 3 | Max Delta: 65.5123
+
 Iteration 4 | Max Delta: 56.4190
+
 Iteration 5 | Max Delta: 49.3302
+
 ...
+
 Iteration 16 | Max Delta: 4.7188
 
 ### Comparing Policies:
 ----- Policy Comparison -----
+
 Policy 1 (No Movement) Average State Value      : 398.24
+
 Policy 2 (Simple Rebalancing) Average State Value : 421.57
 
 Comparison Result State-by-State:
+
 Policy 2 is better on average, but not in all individual states.
 
 ## RESULT:
